@@ -1,0 +1,29 @@
+﻿<Window x:Class="ViveroElSalto.vistas.ListarPlantas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ViveroElSalto.vistas"
+        mc:Ignorable="d"
+        Title="Listar Plantas" Height="450" Width="850">
+    <Grid>
+        <DataGrid x:Name="dgAllPlantas" Margin="10,50,10,10">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="Actualizar">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="btnActualizaPlanta" Content="Actualizar" Click="btnActualizaPlantaClick"></Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Eliminar">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="btnEliminaPlanta" Content="Eliminar" Click="btnEliminaPlantaClick"></Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

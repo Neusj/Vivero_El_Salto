@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViveroElSalto", "ViveroElSalto.csproj", "{3B478687-898F-4155-A77D-A7A756DB06C6}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "vivero_instaler", "..\vivero_instaler\vivero_instaler.vdproj", "{0FFB6455-EA03-43BF-A3AB-F7C94D7E5C37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B478687-898F-4155-A77D-A7A756DB06C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B478687-898F-4155-A77D-A7A756DB06C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B478687-898F-4155-A77D-A7A756DB06C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B478687-898F-4155-A77D-A7A756DB06C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FFB6455-EA03-43BF-A3AB-F7C94D7E5C37}.Debug|Any CPU.ActiveCfg = Debug
+		{0FFB6455-EA03-43BF-A3AB-F7C94D7E5C37}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A749D3EC-4200-4757-9C87-C7442041D54E}
+	EndGlobalSection
+EndGlobal
